@@ -1,3 +1,6 @@
+# Built benchamrk application
+/lvgl_demo_benchmark
+
 # Prerequisites
 *.d
 
