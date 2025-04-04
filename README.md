@@ -24,9 +24,9 @@ SoM-only if you are using a different carrier board or already have one.
 
 The benchmark was run with the v8.3 Wayland driver.
 
-<a href="https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXX">
+<!--<a href="https://www.youtube.com/watch?v=XXXXXXXXXXXXXXXXXXXXXXX">
     <img src="https://github.com/user-attachments/assets/87c1f2e5-0260-4772-b711-13fdab467474" width="75%">
-</a>
+</a>-->
 
 | Name                      | Avg. CPU | Avg. FPS | Avg. time | render time | flush time |
 | :------------------------ | -------: | -------: | --------: | ----------: | ---------: |
