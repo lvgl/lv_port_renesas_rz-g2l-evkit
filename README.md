@@ -98,8 +98,10 @@ These steps are based on the [Renesas RZ/G HMI SDK Getting Started guide](https:
      See [the officical guide](https://renesas-rz.github.io/rzg_hmi_sdk/latest/getting_started/) for more details about that.
      Use `bmaptool` (`sudo apt install bmap-tools`) to flash the SD card with the command
      ```shell
-     sudo bmaptool copy core-image-weston-smarc-rzg2l.wic.gz /dev/sda
+     sudo bmaptool copy core-image-weston-smarc-rzg2l.wic.gz <path to block device>
      ```
+     Where `<path to block device>` is the Micro SD card block device. It may be `/dev/mmcblk0`. Take care to ensure
+     you do not accidentally overwrite a system drive.
    - On a Windows PC, use Win32 Disk Imager or balenaEtcher (you can also use this on a Linux PC, but `bmaptool` may be faster)
      to flash the file called `core-image-weston-smarc-rzg2l.wic.gz`.
 5. Set the DIP switches as in [the officical guide](https://renesas-rz.github.io/rzg_hmi_sdk/latest/getting_started/).
