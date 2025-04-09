@@ -25,7 +25,7 @@
     "logos": [
         "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/renesas/logo.svg"
     ],
-    "image": "https://raw.githubusercontent.com/lvgl/lv_port_renesas_rz-g2l-evkit/master/board_images/renesas-rz-g2l.webp",
+    "image": "https://raw.githubusercontent.com/lvgl/lv_port_renesas_rz-g2l-evkit/master/board_images/board.webp",
     "buy_now_links": [
         "https://www.renesas.com/en/products/microcontrollers-microprocessors/rz-mpus/rzg2l-evkit-evaluation-board-kit-rzg2l-mpu",
         "https://www.mouser.com/ProductDetail/Renesas-Electronics/RTK9744L23S01000BE?qs=7D1LtPJG0i2Uv%2FGoPVv6xw%3D%3D",
